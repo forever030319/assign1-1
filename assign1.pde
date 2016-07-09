@@ -8,19 +8,13 @@
 PImage hpImg,treasureImg,fighterImg,enermyImg;
 PImage bg1,bg2;
 int width=640, height=480;
-int treasure_width=41, treasure_height=41; //size
-int treasure_x,treasure_y; //position
-int enermy_height=61; //size
-int enermy_x,enermy_y; //position
-
-int x=600,y=450;
+int treasure_width=41, treasure_height=41; //treasure's size
+int treasure_x,treasure_y; //treasure's position
+int enermy_height=61; //enermy's size
+int enermy_x,enermy_y; //enermy's position
 int x_flood, rand_flood;
-
-
 int bg1_x,bg1_y;
 int bg2_x,bg2_y;
-
-
 
 void setup () {
   size(640,480) ;  // must use this size.
